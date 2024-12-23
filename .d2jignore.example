@@ -1,0 +1,50 @@
+# Example .d2jignore file
+
+# System files and directories
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+
+# Node.js
+node_modules/
+*.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Compiled files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# Archive and package files
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.deb
+*.rpm
+
+# Build and dist folders
+build/
+dist/
+*.out
+*.class
+
+# Version control
+.git/
+.hg/
+.svn/
+.idea/
+.vscode/
+*.swp
+*.swo
